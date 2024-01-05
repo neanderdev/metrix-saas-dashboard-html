@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./settings.css" />
+
+    <title>Metrix SaaS | Settings</title>
+  </head>
+
+  <body>
+    <aside>
+      <button type="button" class="close-sidebar">
+        <i class="ph ph-x"></i>
+      </button>
+
+      <button type="button" class="collapse-sidebar">
+        <i class="ph ph-caret-double-left"></i>
+      </button>
+
+      <button type="button" class="expand-sidebar">
+        <i class="ph ph-caret-double-right"></i>
+      </button>
+
+      <div class="logo-container">
+        <img src="./assets/logo.svg" alt="Logo Metrix" />
+
+        <span>Metrix</span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="">
+            <i class="ph ph-squares-four"></i>
+
+            <p>Dashboard</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-shopping-bag"></i>
+
+            <p>Orders</p>
+
+            <span>3</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-users"></i>
+
+            <p>Customers</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-folder"></i>
+
+            <p>Inventory</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-chats"></i>
+
+            <p>Conversations</p>
+
+            <span>16</span>
+          </a>
+        </li>
+
+        <li class="active">
+          <a href="">
+            <i class="ph ph-gear-six"></i>
+
+            <p>Settings</p>
+          </a>
+        </li>
+      </ul>
+
+      <div class="footer-sidebar">
+        <div class="contact-support">
+          <a href="">
+            <i class="ph ph-headset"></i>
+
+            <p>Contact Support</p>
+          </a>
+        </div>
+
+        <div class="banner">
+          <a href="">
+            <i class="ph ph-gift"></i>
+
+            <p>Free Gift Awaits You!</p>
+          </a>
+        </div>
+
+        <a href="">
+          <i class="ph ph-sign-out"></i>
+
+          <p>Logout</p>
+        </a>
+      </div>
+    </aside>
+
+    <main>
+      <header>
+        <div class="header-container">
+          <div>
+            <button type="button" class="open-sidebar">
+              <i class="ph ph-list"></i>
+            </button>
+
+            <span>Settings</span>
+          </div>
+
+          <div class="profile">
+            <select name="empresa-select">
+              <option value="empresa-1" selected>Empresa 1</option>
+
+              <option value="empresa-2">Empresa 2</option>
+
+              <option value="empresa-3">Empresa 3</option>
+            </select>
+
+            <i class="ph-fill ph-bell"></i>
+
+            <img
+              src="https://github.com/neanderdev.png"
+              alt="Imagem de Perfil do Usuário"
+            />
+          </div>
+        </div>
+
+        <div class="breadcrumbs">
+          <a href="">
+            <i class="ph-fill ph-house"></i>
+          </a>
+
+          <a href="">
+            /
+
+            <span>Settings</span>
+          </a>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class="tabs">
+          <div class="tab active">
+            <span>Account</span>
+          </div>
+
+          <div class="tab">
+            <span>Business</span>
+          </div>
+
+          <div class="tab">
+            <span>Security</span>
+          </div>
+        </div>
+
+        <div class="account-settings">
+          <div class="account-settings-header">
+            <h3>Account Settings</h3>
+
+            <button type="button">Update</button>
+          </div>
+
+          <div class="account-settings-content">
+            <div class="account-settings-content-form">
+              <div class="input-wrapper">
+                <label for="first-name">First Name</label>
+
+                <div class="input-container">
+                  <input
+                    type="text"
+                    id="first-name"
+                    name="first-name"
+                    placeholder="First Name"
+                  />
+
+                  <i class="ph ph-user"></i>
+                </div>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="last-name">Last Name</label>
+
+                <div class="input-container">
+                  <input
+                    type="text"
+                    id="last-name"
+                    name="last-name"
+                    placeholder="Last Name"
+                  />
+
+                  <i class="ph ph-user"></i>
+                </div>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="email">Email</label>
+
+                <div class="input-container">
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                  />
+
+                  <i class="ph ph-envelope-simple"></i>
+                </div>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="phone-number">Phone Number</label>
+
+                <div class="input-container">
+                  <input
+                    type="text"
+                    id="phone-number"
+                    name="phone-number"
+                    placeholder="Phone Number"
+                  />
+
+                  <i class="ph ph-phone"></i>
+                </div>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="address">Address</label>
+
+                <div class="input-container">
+                  <input
+                    type="text"
+                    id="address"
+                    name="address"
+                    placeholder="Address"
+                  />
+
+                  <i class="ph ph-map-pin"></i>
+                </div>
+              </div>
+
+              <div class="input-wrapper">
+                <label for="city">City</label>
+
+                <div class="input-container">
+                  <input type="text" id="city" name="city" placeholder="City" />
+
+                  <i class="ph ph-map-pin"></i>
+                </div>
+              </div>
+
+              <div class="selects-container">
+                <div class="select-wrapper">
+                  <label for="country">Country</label>
+
+                  <select name="country" id="select-country">
+                    <option value="Brasil" selected>Brasil</option>
+
+                    <option value="EUA">EUA</option>
+
+                    <option value="Argentina">Argentina</option>
+                  </select>
+                </div>
+
+                <div class="select-wrapper">
+                  <label for="state">State</label>
+
+                  <select name="state" id="select-state">
+                    <option value="SP" selected>SP</option>
+
+                    <option value="RJ">RJ</option>
+
+                    <option value="MG">MG</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="account-settings-content-upload-image">
+              <div class="image-user">
+                <label for="input-image-user">
+                  <i class="ph-fill ph-image"></i>
+
+                  <span>
+                    <i class="ph ph-cloud-arrow-up"></i>
+
+                    Upload Image
+                  </span>
+                </label>
+
+                <input
+                  class="input-image-user"
+                  name="input-image-user"
+                  id="input-image-user"
+                  type="file"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="./settings.js"></script>
+</html>

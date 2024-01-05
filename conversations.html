@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./conversations.css" />
+
+    <title>Metrix SaaS | Conversations</title>
+  </head>
+
+  <body>
+    <aside>
+      <button type="button" class="close-sidebar">
+        <i class="ph ph-x"></i>
+      </button>
+
+      <button type="button" class="collapse-sidebar">
+        <i class="ph ph-caret-double-left"></i>
+      </button>
+
+      <button type="button" class="expand-sidebar">
+        <i class="ph ph-caret-double-right"></i>
+      </button>
+
+      <div class="logo-container">
+        <img src="./assets/logo.svg" alt="Logo Metrix" />
+
+        <span>Metrix</span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="">
+            <i class="ph ph-squares-four"></i>
+
+            <p>Dashboard</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-shopping-bag"></i>
+
+            <p>Orders</p>
+
+            <span>3</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-users"></i>
+
+            <p>Customers</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-folder"></i>
+
+            <p>Inventory</p>
+          </a>
+        </li>
+
+        <li class="active">
+          <a href="">
+            <i class="ph ph-chats"></i>
+
+            <p>Conversations</p>
+
+            <span>16</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-gear-six"></i>
+
+            <p>Settings</p>
+          </a>
+        </li>
+      </ul>
+
+      <div class="footer-sidebar">
+        <div class="contact-support">
+          <a href="">
+            <i class="ph ph-headset"></i>
+
+            <p>Contact Support</p>
+          </a>
+        </div>
+
+        <div class="banner">
+          <a href="">
+            <i class="ph ph-gift"></i>
+
+            <p>Free Gift Awaits You!</p>
+          </a>
+        </div>
+
+        <a href="">
+          <i class="ph ph-sign-out"></i>
+
+          <p>Logout</p>
+        </a>
+      </div>
+    </aside>
+
+    <main>
+      <header>
+        <div class="header-container">
+          <div>
+            <button type="button" class="open-sidebar">
+              <i class="ph ph-list"></i>
+            </button>
+
+            <span>Conversations</span>
+          </div>
+
+          <div class="profile">
+            <select name="empresa-select">
+              <option value="empresa-1" selected>Empresa 1</option>
+
+              <option value="empresa-2">Empresa 2</option>
+
+              <option value="empresa-3">Empresa 3</option>
+            </select>
+
+            <i class="ph-fill ph-bell"></i>
+
+            <img
+              src="https://github.com/neanderdev.png"
+              alt="Imagem de Perfil do Usuário"
+            />
+          </div>
+        </div>
+
+        <div class="breadcrumbs">
+          <a href="">
+            <i class="ph-fill ph-house"></i>
+          </a>
+
+          <a href="">
+            /
+
+            <span>Conversations</span>
+          </a>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class="container-header">
+          <span>Conversations with Customers</span>
+
+          <button type="button">New Message</button>
+        </div>
+
+        <div class="content">
+          <div class="contacts-container">
+            <div class="contacts-header">
+              <div class="contacts-title">
+                <h3>Contacts</h3>
+
+                <span>34</span>
+              </div>
+
+              <div class="input-wrapper">
+                <input
+                  type="search"
+                  name="search"
+                  id="search"
+                  placeholder="Search"
+                />
+
+                <i class="ph ph-magnifying-glass"></i>
+              </div>
+            </div>
+
+            <div class="contacts">
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle online"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle offline"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle online"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle offline"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle online"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle offline"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle online"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle offline"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle online"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle offline"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle online"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle offline"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle online"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle offline"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle online"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="imagem-perfil-container">
+                  <img
+                    src="https://github.com/neanderdev.png"
+                    alt="Foto de Perfil"
+                  />
+
+                  <div class="circle offline"></div>
+                </div>
+
+                <div class="contact-content">
+                  <div class="contact-content-header">
+                    <span class="nome">Neander de Souza</span>
+
+                    <div class="contact-new-notifications">
+                      <span class="new">New</span>
+
+                      <span class="notifications">21</span>
+                    </div>
+                  </div>
+
+                  <div class="contact-content-footer">
+                    <p>Olá, bom dia!</p>
+
+                    <span>12:55 am</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="chat-empty">
+            <div class="icon">
+              <i class="ph-fill ph-chat-circle"></i>
+            </div>
+
+            <div class="chat-empty-content">
+              <div class="chat-empty-content-description">
+                <h3>Messages</h3>
+
+                <p>Click on a contact to view messages.</p>
+              </div>
+
+              <button type="button">
+                <i class="ph ph-chat-circle-dots"></i>
+
+                New Message
+              </button>
+            </div>
+          </div>
+
+          <div class="chat-container">
+            <div class="chat-header">
+              <img
+                src="https://github.com/neanderdev.png"
+                alt="Foto de Perfil"
+              />
+
+              <div class="chat-header-content">
+                <div class="chat-header-content-header">
+                  <span>Neander de Souza</span>
+
+                  <div class="links">
+                    <a href="" class="new-customer-link">New Customer</a>
+
+                    <a href="" class="view-profile-link">View Profile</a>
+                  </div>
+                </div>
+
+                <div class="chat-header-content-footer">
+                  <div class="user-info">
+                    <div class="user-info-status">
+                      <div class="circle online"></div>
+
+                      <span>Online</span>
+                    </div>
+
+                    <span>12:55 am</span>
+                  </div>
+
+                  <div class="qtd-order">
+                    <i class="ph ph-tote"></i>
+
+                    <span>0 Orders</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="chat">
+              <div class="order-card">
+                <img
+                  src="https://images.unsplash.com/photo-1700805732158-6f1169780ca7?q=80&w=1887&auto=format&fit=crop"
+                  alt="Imagem iPhone 15 Pro Max"
+                />
+
+                <div class="order-card-content">
+                  <div class="order-card-content-top">
+                    <p>iPhone 15 Pro Max</p>
+                  </div>
+
+                  <div class="order-card-content-bottom">
+                    <p>R$ 10.000,00</p>
+
+                    <span>
+                      <div class="qtd">12</div>
+
+                      In Stock
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="messages">
+                <div class="message-container">
+                  <span class="time">28 December 2023</span>
+
+                  <div class="message to">
+                    <p>Hello, I want to make enquiries about your product</p>
+
+                    <div class="info-message">
+                      <span>12:55 am</span>
+                    </div>
+                  </div>
+
+                  <div class="message me">
+                    <p>Hello Neander, thank you for reaching out</p>
+
+                    <div class="info-message">
+                      <span>12:57 am</span>
+
+                      <div class="check">
+                        <i class="ph ph-check"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="message me">
+                    <p>What do you need to know?</p>
+
+                    <div class="info-message">
+                      <span>12:55 am</span>
+
+                      <div class="check">
+                        <i class="ph ph-check"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="message-container">
+                  <span class="time">Today</span>
+
+                  <div class="message to">
+                    <p>
+                      I want to know if the price is negotiable, i need about 2
+                      Units
+                    </p>
+
+                    <div class="info-message">
+                      <span>12:55 am</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="chat-footer">
+              <div class="input-message">
+                <button type="button" class="add-file-message">
+                  <i class="ph ph-plus"></i>
+                </button>
+
+                <input
+                  type="text"
+                  name="your-message"
+                  id="your-message"
+                  placeholder="Your message"
+                />
+
+                <i class="ph ph-smiley emoji"></i>
+
+                <button type="button" class="send-your-message">
+                  Send
+
+                  <i class="ph-fill ph-paper-plane-tilt"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <header>
+          <h3>New Message</h3>
+
+          <button type="button" class="close">
+            <i class="ph ph-x"></i>
+          </button>
+        </header>
+
+        <p>Search a Customer to start a conversation</p>
+
+        <div class="input-wrapper">
+          <input
+            type="search"
+            name="search-customer-name"
+            id="search-customer-name"
+            placeholder="Search customer name"
+          />
+
+          <i class="ph ph-magnifying-glass"></i>
+        </div>
+
+        <div class="modal-container">
+          <div class="contact-card">
+            <div class="imagem-perfil-container">
+              <img
+                src="https://github.com/neanderdev.png"
+                alt="Foto de Perfil"
+              />
+
+              <div class="circle online"></div>
+            </div>
+
+            <div class="contact-content">
+              <div class="contact-content-header">
+                <span class="nome">Neander de Souza</span>
+              </div>
+
+              <div class="contact-content-footer">
+                <p>Last Activity</p>
+
+                <span>28 Dec 2023 - 12:55 am</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="imagem-perfil-container">
+              <img
+                src="https://github.com/neanderdev.png"
+                alt="Foto de Perfil"
+              />
+
+              <div class="circle offline"></div>
+            </div>
+
+            <div class="contact-content">
+              <div class="contact-content-header">
+                <span class="nome">Neander de Souza</span>
+              </div>
+
+              <div class="contact-content-footer">
+                <p>Last Activity</p>
+
+                <span>28 Dec 2023 - 12:55 am</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="imagem-perfil-container">
+              <img
+                src="https://github.com/neanderdev.png"
+                alt="Foto de Perfil"
+              />
+
+              <div class="circle online"></div>
+            </div>
+
+            <div class="contact-content">
+              <div class="contact-content-header">
+                <span class="nome">Neander de Souza</span>
+              </div>
+
+              <div class="contact-content-footer">
+                <p>Last Activity</p>
+
+                <span>28 Dec 2023 - 12:55 am</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="imagem-perfil-container">
+              <img
+                src="https://github.com/neanderdev.png"
+                alt="Foto de Perfil"
+              />
+
+              <div class="circle offline"></div>
+            </div>
+
+            <div class="contact-content">
+              <div class="contact-content-header">
+                <span class="nome">Neander de Souza</span>
+              </div>
+
+              <div class="contact-content-footer">
+                <p>Last Activity</p>
+
+                <span>28 Dec 2023 - 12:55 am</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="imagem-perfil-container">
+              <img
+                src="https://github.com/neanderdev.png"
+                alt="Foto de Perfil"
+              />
+
+              <div class="circle online"></div>
+            </div>
+
+            <div class="contact-content">
+              <div class="contact-content-header">
+                <span class="nome">Neander de Souza</span>
+              </div>
+
+              <div class="contact-content-footer">
+                <p>Last Activity</p>
+
+                <span>28 Dec 2023 - 12:55 am</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="imagem-perfil-container">
+              <img
+                src="https://github.com/neanderdev.png"
+                alt="Foto de Perfil"
+              />
+
+              <div class="circle offline"></div>
+            </div>
+
+            <div class="contact-content">
+              <div class="contact-content-header">
+                <span class="nome">Neander de Souza</span>
+              </div>
+
+              <div class="contact-content-footer">
+                <p>Last Activity</p>
+
+                <span>28 Dec 2023 - 12:55 am</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="imagem-perfil-container">
+              <img
+                src="https://github.com/neanderdev.png"
+                alt="Foto de Perfil"
+              />
+
+              <div class="circle online"></div>
+            </div>
+
+            <div class="contact-content">
+              <div class="contact-content-header">
+                <span class="nome">Neander de Souza</span>
+              </div>
+
+              <div class="contact-content-footer">
+                <p>Last Activity</p>
+
+                <span>28 Dec 2023 - 12:55 am</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="imagem-perfil-container">
+              <img
+                src="https://github.com/neanderdev.png"
+                alt="Foto de Perfil"
+              />
+
+              <div class="circle offline"></div>
+            </div>
+
+            <div class="contact-content">
+              <div class="contact-content-header">
+                <span class="nome">Neander de Souza</span>
+              </div>
+
+              <div class="contact-content-footer">
+                <p>Last Activity</p>
+
+                <span>28 Dec 2023 - 12:55 am</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="imagem-perfil-container">
+              <img
+                src="https://github.com/neanderdev.png"
+                alt="Foto de Perfil"
+              />
+
+              <div class="circle online"></div>
+            </div>
+
+            <div class="contact-content">
+              <div class="contact-content-header">
+                <span class="nome">Neander de Souza</span>
+              </div>
+
+              <div class="contact-content-footer">
+                <p>Last Activity</p>
+
+                <span>28 Dec 2023 - 12:55 am</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="imagem-perfil-container">
+              <img
+                src="https://github.com/neanderdev.png"
+                alt="Foto de Perfil"
+              />
+
+              <div class="circle offline"></div>
+            </div>
+
+            <div class="contact-content">
+              <div class="contact-content-header">
+                <span class="nome">Neander de Souza</span>
+              </div>
+
+              <div class="contact-content-footer">
+                <p>Last Activity</p>
+
+                <span>28 Dec 2023 - 12:55 am</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="./conversations.js"></script>
+</html>

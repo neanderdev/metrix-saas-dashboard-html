@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sign-in.css" />
+
+    <title>Metrix SaaS | Sign In</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="Logo Metrix" />
+    </header>
+
+    <form>
+      <div class="heading">
+        <img src="./assets/logo.svg" alt="Logo Metrix" />
+
+        <div class="intro-content">
+          <span>Welcome back!</span>
+
+          <p>Login to your account</p>
+        </div>
+      </div>
+
+      <div class="form-content">
+        <div class="form-input-content">
+          <div class="input-fields">
+            <div class="input-wrapper">
+              <div class="input-container">
+                <i class="ph ph-envelope-simple"></i>
+
+                <input
+                  type="email"
+                  name="email-address"
+                  id="email-address"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <div class="input-container">
+                <i class="ph ph-lock"></i>
+
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <a href="">Recover Password</a>
+        </div>
+
+        <p>Don’t have an account? <a href="">Sign Up</a></p>
+
+        <button type="submit">Sign In</button>
+      </div>
+    </form>
+  </body>
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</html>

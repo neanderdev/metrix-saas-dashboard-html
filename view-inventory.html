@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./view-inventory.css" />
+
+    <title>Metrix SaaS | View Inventory</title>
+  </head>
+
+  <body>
+    <aside>
+      <button type="button" class="close-sidebar">
+        <i class="ph ph-x"></i>
+      </button>
+
+      <button type="button" class="collapse-sidebar">
+        <i class="ph ph-caret-double-left"></i>
+      </button>
+
+      <button type="button" class="expand-sidebar">
+        <i class="ph ph-caret-double-right"></i>
+      </button>
+
+      <div class="logo-container">
+        <img src="./assets/logo.svg" alt="Logo Metrix" />
+
+        <span>Metrix</span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="">
+            <i class="ph ph-squares-four"></i>
+
+            <p>Dashboard</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-shopping-bag"></i>
+
+            <p>Orders</p>
+
+            <span>3</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-users"></i>
+
+            <p>Customers</p>
+          </a>
+        </li>
+
+        <li class="active">
+          <a href="">
+            <i class="ph ph-folder"></i>
+
+            <p>Inventory</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-chats"></i>
+
+            <p>Conversations</p>
+
+            <span>16</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-gear-six"></i>
+
+            <p>Settings</p>
+          </a>
+        </li>
+      </ul>
+
+      <div class="footer-sidebar">
+        <div class="contact-support">
+          <a href="">
+            <i class="ph ph-headset"></i>
+
+            <p>Contact Support</p>
+          </a>
+        </div>
+
+        <div class="banner">
+          <a href="">
+            <i class="ph ph-gift"></i>
+
+            <p>Free Gift Awaits You!</p>
+          </a>
+        </div>
+
+        <a href="">
+          <i class="ph ph-sign-out"></i>
+
+          <p>Logout</p>
+        </a>
+      </div>
+    </aside>
+
+    <main>
+      <header>
+        <div class="header-container">
+          <div>
+            <button type="button" class="open-sidebar">
+              <i class="ph ph-list"></i>
+            </button>
+
+            <span>Inventory</span>
+          </div>
+
+          <div class="profile">
+            <select name="empresa-select">
+              <option value="empresa-1" selected>Empresa 1</option>
+
+              <option value="empresa-2">Empresa 2</option>
+
+              <option value="empresa-3">Empresa 3</option>
+            </select>
+
+            <i class="ph-fill ph-bell"></i>
+
+            <img
+              src="https://github.com/neanderdev.png"
+              alt="Imagem de Perfil do Usuário"
+            />
+          </div>
+        </div>
+
+        <div class="breadcrumbs">
+          <a href="">
+            <i class="ph-fill ph-house"></i>
+          </a>
+
+          <a href="" class="active">
+            /
+
+            <span>Inventory</span>
+          </a>
+
+          <a href="">
+            /
+
+            <span>View Inventory</span>
+          </a>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class="container-header">
+          <div class="container-header-info">
+            <span>Polo T-Shirt</span>
+
+            <span>
+              Date Added
+
+              <p>28 Dec 2023 - 12:55 pm</p>
+            </span>
+
+            <span>
+              Product URL
+
+              <p>www.1nancystores.com/polot-shirt</p>
+
+              <button type="button" class="copy-product-url">
+                <i class="ph ph-copy-simple"></i>
+              </button>
+            </span>
+          </div>
+
+          <div class="container-header-buttons">
+            <button type="button" class="actions-product-buttons">
+              Edit Product
+
+              <hr />
+
+              <i class="ph ph-caret-down"></i>
+            </button>
+
+            <button type="button" class="unpublish-product-button">
+              Unpublish Product
+            </button>
+          </div>
+        </div>
+
+        <div class="stats stats-1">
+          <div class="image-principal-container">
+            <img
+              src="https://images.tcdn.com.br/img/img_prod/914261/camisa_polo_masculina_azul_1769_1_2ec514d9bdf2bca0fe0bb3ad633b0506.jpg"
+              alt="Camisa Polo Azul"
+            />
+          </div>
+
+          <div class="summary-card">
+            <div class="summary-header">
+              <div class="summary-header-info">
+                <span>
+                  Last Order
+
+                  <p>12 Sept 2022</p>
+                </span>
+              </div>
+
+              <span class="badge published">Published</span>
+            </div>
+
+            <div class="summary-footer">
+              <div class="summary-footer-info">
+                <span>Price</span>
+
+                <p>R$ 120,00</p>
+              </div>
+
+              <div class="summary-footer-info">
+                <span>Stock</span>
+
+                <p>20</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="summary-card">
+            <div class="summary-header">
+              <div class="summary-header-info">
+                <div class="icon blue">
+                  <i class="ph ph-chart-pie-slice"></i>
+                </div>
+              </div>
+
+              <select name="filter-total-orders">
+                <option value="all-time" selected>All Time</option>
+
+                <option value="this-month">This Month</option>
+              </select>
+            </div>
+
+            <div class="summary-footer">
+              <div class="summary-footer-info">
+                <span>Total Orders</span>
+
+                <p>R$ 50.000,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="summary-card">
+            <div class="summary-header">
+              <div class="summary-header-info">
+                <div class="icon yellow">
+                  <i class="ph ph-eye"></i>
+                </div>
+              </div>
+
+              <select name="filter-views">
+                <option value="all-time" selected>All Time</option>
+
+                <option value="this-month">This Month</option>
+              </select>
+            </div>
+
+            <div class="summary-footer">
+              <div class="summary-footer-info">
+                <span>Views</span>
+
+                <p>1.200</p>
+              </div>
+
+              <div class="summary-footer-info">
+                <span>Favorite</span>
+
+                <p>23</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats stats-2">
+          <div class="summary-card">
+            <div class="summary-header">
+              <div class="summary-header-info">
+                <div class="icon blue">
+                  <i class="ph ph-chart-pie-slice"></i>
+                </div>
+              </div>
+
+              <select name="filter-total-orders">
+                <option value="all-time" selected>All Time</option>
+
+                <option value="this-month">This Month</option>
+              </select>
+            </div>
+
+            <div class="summary-footer">
+              <div class="summary-footer-info">
+                <span>All Orders</span>
+
+                <p>1</p>
+              </div>
+
+              <div class="summary-footer-info">
+                <span>Pending</span>
+
+                <p>0</p>
+              </div>
+
+              <div class="summary-footer-info">
+                <span>Completed</span>
+
+                <p>1</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="summary-card">
+            <div class="summary-header">
+              <div class="summary-header-info">
+                <div class="icon yellow">
+                  <i class="ph ph-eye"></i>
+                </div>
+              </div>
+
+              <select name="filter-views">
+                <option value="all-time" selected>All Time</option>
+
+                <option value="this-month">This Month</option>
+              </select>
+            </div>
+
+            <div class="summary-footer">
+              <div class="summary-footer-info">
+                <span>Canceled</span>
+
+                <p>0</p>
+              </div>
+
+              <div class="summary-footer-info">
+                <span>Returned</span>
+
+                <p>0</p>
+              </div>
+
+              <div class="summary-footer-info">
+                <span>Damaged</span>
+
+                <p>0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="header-content">
+            <p>Purchases</p>
+
+            <div class="header-filters">
+              <div class="input-wrapper">
+                <input
+                  type="search"
+                  name="search"
+                  id="search"
+                  placeholder="Search"
+                />
+
+                <i class="ph ph-magnifying-glass"></i>
+              </div>
+
+              <div class="filter-container">
+                <button type="button" class="filter">
+                  <i class="ph ph-funnel"></i>
+
+                  Filter
+                </button>
+
+                <div class="dropdown-filter" id="dropdown-filter">
+                  <span>Filter</span>
+
+                  <div class="dropdown-filter-content">
+                    <div class="checkbox-container">
+                      <span>Order Type</span>
+
+                      <div class="checkboxs">
+                        <div class="checkbox-wrapper">
+                          <input
+                            type="checkbox"
+                            name="home-delivery"
+                            id="home-delivery"
+                          />
+
+                          <label for="home-delivery">Home Delivery</label>
+                        </div>
+
+                        <div class="checkbox-wrapper">
+                          <input type="checkbox" name="pick-up" id="pick-up" />
+
+                          <label for="pick-up">Pick Up</label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="select-wrapper">
+                      <label for="status">Status</label>
+
+                      <select name="status" id="status">
+                        <option value="all" selected>All</option>
+
+                        <option value="value-1">Value 1</option>
+
+                        <option value="value-2">Value 2</option>
+                      </select>
+                    </div>
+
+                    <div class="select-wrapper">
+                      <label for="customer">Customer</label>
+
+                      <select name="customer" id="customer">
+                        <option value="all" selected>All</option>
+
+                        <option value="value-1">Value 1</option>
+
+                        <option value="value-2">Value 2</option>
+                      </select>
+                    </div>
+
+                    <div class="prices-container">
+                      <span>Amount</span>
+
+                      <div class="inputs-container">
+                        <div class="input-wrapper">
+                          <label for="from">From</label>
+
+                          <input
+                            type="number"
+                            name="from"
+                            id="from"
+                            value="0"
+                          />
+                        </div>
+
+                        <div class="input-wrapper">
+                          <label for="to">To</label>
+
+                          <input type="number" name="to" id="to" value="10" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <button type="button">Filter</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="filter-by-date-container">
+                <button type="button" class="filter-by-date">
+                  <i class="ph ph-calendar"></i>
+
+                  Filter
+                </button>
+
+                <div
+                  class="dropdown-filter-by-date"
+                  id="dropdown-filter-by-date"
+                >
+                  <span>By Date</span>
+
+                  <div class="dropdown-filter-by-date-content">
+                    <div class="checkbox-container">
+                      <div class="checkbox-wrapper">
+                        <input
+                          type="checkbox"
+                          name="this-week"
+                          id="this-week"
+                          checked
+                        />
+
+                        <label for="this-week">This Week</label>
+                      </div>
+
+                      <div class="checkbox-wrapper">
+                        <input
+                          type="checkbox"
+                          name="this-month"
+                          id="this-month"
+                        />
+
+                        <label for="this-month">This Month</label>
+                      </div>
+
+                      <div class="checkbox-wrapper">
+                        <input
+                          type="checkbox"
+                          name="this-year"
+                          id="this-year"
+                        />
+
+                        <label for="this-year">This Year</label>
+                      </div>
+
+                      <div class="checkbox-wrapper">
+                        <input
+                          type="checkbox"
+                          name="last-week"
+                          id="last-week"
+                        />
+
+                        <label for="last-week">Last Week</label>
+                      </div>
+
+                      <div class="checkbox-wrapper">
+                        <input
+                          type="checkbox"
+                          name="last-month"
+                          id="last-month"
+                        />
+
+                        <label for="last-month">Last Month</label>
+                      </div>
+
+                      <div class="checkbox-wrapper">
+                        <input
+                          type="checkbox"
+                          name="last-year"
+                          id="last-year"
+                        />
+
+                        <label for="last-year">Last Year</label>
+                      </div>
+                    </div>
+
+                    <button type="button">Filter</button>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" class="share">
+                <i class="ph ph-paper-plane-tilt"></i>
+
+                Share
+              </button>
+
+              <button type="button" class="bulk-action">
+                Bulk Action
+
+                <i class="ph ph-caret-down"></i>
+              </button>
+            </div>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <div>
+                    <input
+                      type="checkbox"
+                      name="check-all-purchases"
+                      id="check-all-purchases"
+                    />
+                  </div>
+                </th>
+
+                <th>
+                  <div>
+                    <span>Order Date</span>
+                  </div>
+                </th>
+
+                <th>
+                  <div>
+                    <span>Order Type</span>
+                  </div>
+                </th>
+
+                <th>
+                  <div>
+                    <span>Unit Price</span>
+                  </div>
+                </th>
+
+                <th>
+                  <div>
+                    <span>Qty</span>
+                  </div>
+                </th>
+
+                <th>
+                  <div>
+                    <span>Discount</span>
+                  </div>
+                </th>
+
+                <th>
+                  <div>
+                    <span>Order Total</span>
+                  </div>
+                </th>
+
+                <th>
+                  <div>
+                    <span>Status</span>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>
+                  <div>
+                    <input
+                      type="checkbox"
+                      name="check-purchase-1"
+                      id="check-purchase-1"
+                    />
+                  </div>
+                </td>
+
+                <td>
+                  <div class="order-date">
+                    <span class="title-head">Order Date</span>
+
+                    <span>28 Dec 2023 - 12:25 am</span>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="order-type">
+                    <span class="title-head">Order Type</span>
+
+                    <span>Home Delivery</span>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="unit-price">
+                    <span class="title-head">Unit Price</span>
+
+                    <span>R$ 150,00</span>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="qty">
+                    <span class="title-head">Qty</span>
+
+                    <span>2</span>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="discount">
+                    <span class="title-head">Discount</span>
+
+                    <span>R$ 0,00</span>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="order-total">
+                    <span class="title-head">Order Total</span>
+
+                    <span>R$ 150,00</span>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="status">
+                    <span class="title-head">Status</span>
+
+                    <span class="badge completed">Completed</span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="./view-inventory.js"></script>
+</html>

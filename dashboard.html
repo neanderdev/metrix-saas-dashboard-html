@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dashboard.css" />
+
+    <title>Metrix SaaS | Dashboard</title>
+  </head>
+
+  <body>
+    <aside>
+      <button type="button" class="close-sidebar">
+        <i class="ph ph-x"></i>
+      </button>
+
+      <button type="button" class="collapse-sidebar">
+        <i class="ph ph-caret-double-left"></i>
+      </button>
+
+      <button type="button" class="expand-sidebar">
+        <i class="ph ph-caret-double-right"></i>
+      </button>
+
+      <div class="logo-container">
+        <img src="./assets/logo.svg" alt="Logo Metrix" />
+
+        <span>Metrix</span>
+      </div>
+
+      <ul>
+        <li class="active">
+          <a href="">
+            <i class="ph ph-squares-four"></i>
+
+            <p>Dashboard</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-shopping-bag"></i>
+
+            <p>Orders</p>
+
+            <span>3</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-users"></i>
+
+            <p>Customers</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-folder"></i>
+
+            <p>Inventory</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-chats"></i>
+
+            <p>Conversations</p>
+
+            <span>16</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <i class="ph ph-gear-six"></i>
+
+            <p>Settings</p>
+          </a>
+        </li>
+      </ul>
+
+      <div class="footer-sidebar">
+        <div class="contact-support">
+          <a href="">
+            <i class="ph ph-headset"></i>
+
+            <p>Contact Support</p>
+          </a>
+        </div>
+
+        <div class="banner">
+          <a href="">
+            <i class="ph ph-gift"></i>
+
+            <p>Free Gift Awaits You!</p>
+          </a>
+        </div>
+
+        <a href="">
+          <i class="ph ph-sign-out"></i>
+
+          <p>Logout</p>
+        </a>
+      </div>
+    </aside>
+
+    <main>
+      <header>
+        <div class="header-container">
+          <div>
+            <button type="button" class="open-sidebar">
+              <i class="ph ph-list"></i>
+            </button>
+
+            <span>Dashboard</span>
+          </div>
+
+          <div class="profile">
+            <select name="empresa-select">
+              <option value="empresa-1" selected>Empresa 1</option>
+
+              <option value="empresa-2">Empresa 2</option>
+
+              <option value="empresa-3">Empresa 3</option>
+            </select>
+
+            <i class="ph-fill ph-bell"></i>
+
+            <img
+              src="https://github.com/neanderdev.png"
+              alt="Imagem de Perfil do Usuário"
+            />
+          </div>
+        </div>
+
+        <div class="breadcrumbs">
+          <a href="">
+            <i class="ph-fill ph-house"></i>
+          </a>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class="stats">
+          <div class="summary-card">
+            <div class="summary-heading">
+              <div class="icon blue">
+                <i class="ph ph-chart-pie-slice"></i>
+              </div>
+
+              <select name="filter-sales">
+                <option value="this-week" selected>This Week</option>
+
+                <option value="this-month">This Month</option>
+              </select>
+            </div>
+
+            <div class="summary-data-container">
+              <div class="summary-data">
+                <p>Sales</p>
+
+                <span>₦4,000,000.00</span>
+              </div>
+
+              <div class="summary-data">
+                <p>Volume</p>
+
+                <span>
+                  450
+
+                  <span class="sum">+20.00%</span>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="summary-card">
+            <div class="summary-heading">
+              <div class="icon gray">
+                <i class="ph ph-users"></i>
+              </div>
+
+              <select name="filter-sales">
+                <option value="this-week" selected>This Week</option>
+
+                <option value="this-month">This Month</option>
+              </select>
+            </div>
+
+            <div class="summary-data-container">
+              <div class="summary-data">
+                <p>Customers</p>
+
+                <span>
+                  1,250
+
+                  <span class="sum">+15.80%</span>
+                </span>
+              </div>
+
+              <div class="summary-data">
+                <p>Active</p>
+
+                <span>
+                  1,180
+
+                  <span class="subtraction">-4.90%</span>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="summary-card">
+            <div class="summary-heading">
+              <div class="icon gray">
+                <i class="ph ph-shopping-bag"></i>
+              </div>
+
+              <select name="filter-sales">
+                <option value="this-week" selected>This Week</option>
+
+                <option value="this-month">This Month</option>
+              </select>
+            </div>
+
+            <div class="summary-data-container">
+              <div class="summary-data">
+                <p>All Orders</p>
+
+                <span>450</span>
+              </div>
+
+              <div class="summary-data">
+                <p>Pending</p>
+
+                <span>5</span>
+              </div>
+
+              <div class="summary-data">
+                <p>Completed</p>
+
+                <span>445</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="graphics">
+            <div class="graphics-top">
+              <div class="marketing">
+                <div class="marketing-heading">
+                  <p>Marketting</p>
+
+                  <select name="filter-marketing">
+                    <option value="this-week" selected>This Week</option>
+
+                    <option value="this-month">This Month</option>
+                  </select>
+                </div>
+
+                <div class="chart-marketing" id="chart-marketing"></div>
+              </div>
+
+              <div class="graphics-right">
+                <div class="summary-card blue">
+                  <div class="summary-heading">
+                    <div class="icon blue">
+                      <i class="ph ph-folder"></i>
+                    </div>
+                  </div>
+
+                  <div class="summary-data-container">
+                    <div class="summary-data">
+                      <p>All Products</p>
+
+                      <span>45</span>
+                    </div>
+
+                    <div class="summary-data">
+                      <p>Active</p>
+
+                      <span>
+                        32
+
+                        <span class="sum">+24%</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="summary-card">
+                  <div class="summary-heading">
+                    <div class="icon gray">
+                      <i class="ph ph-shopping-cart"></i>
+                    </div>
+
+                    <select name="filter-sales">
+                      <option value="this-week" selected>This Week</option>
+
+                      <option value="this-month">This Month</option>
+                    </select>
+                  </div>
+
+                  <div class="summary-data-container">
+                    <div class="summary-data">
+                      <p class="red">Abandoned Cart</p>
+
+                      <span>
+                        20%
+
+                        <span class="sum">+0.00%</span>
+                      </span>
+                    </div>
+
+                    <div class="summary-data">
+                      <p>Customers</p>
+
+                      <span>30</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="graphics-bottom">
+              <div class="summary-graphic-heading">
+                <div class="header-container">
+                  <p>Summary</p>
+
+                  <select name="filter-type">
+                    <option value="sales-1" selected>Sales 1</option>
+
+                    <option value="sales-2">Sales 2</option>
+                  </select>
+                </div>
+
+                <select name="filter-summary">
+                  <option value="last-7-days" selected>Last 7 Days</option>
+
+                  <option value="last-30-days">Last 30 Days</option>
+                </select>
+              </div>
+
+              <div class="chart-summary" id="chart-summary"></div>
+            </div>
+          </div>
+
+          <div class="order-summary">
+            <div class="order-summary-heading">
+              <p>Recent Orders</p>
+            </div>
+
+            <div class="order-summary-empty">
+              <div class="icon">
+                <i class="ph-fill ph-shopping-bag"></i>
+              </div>
+
+              <div class="order-summary-empty-content">
+                <div class="order-summary-empty-content-description">
+                  <span>No Orders Yet?</span>
+
+                  <p>
+                    Add products to your store and start selling to see orders
+                    here.
+                  </p>
+                </div>
+
+                <button type="button">
+                  <i class="ph ph-plus"></i>
+
+                  New Product
+                </button>
+              </div>
+            </div>
+
+            <div class="order-summary-container">
+              <div class="order-card">
+                <img
+                  src="https://images.unsplash.com/photo-1700805732158-6f1169780ca7?q=80&w=1887&auto=format&fit=crop"
+                  alt="Imagem iPhone 15 Pro Max"
+                />
+
+                <div class="order-card-content">
+                  <div class="order-card-content-top">
+                    <p>iPhone 15 Pro Max</p>
+
+                    <span>25 Dec 2023</span>
+                  </div>
+
+                  <div class="order-card-content-bottom">
+                    <p>₦730,000.00 x 1</p>
+
+                    <span class="pending">Pending</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="order-card">
+                <img
+                  src="https://images.unsplash.com/photo-1700805732158-6f1169780ca7?q=80&w=1887&auto=format&fit=crop"
+                  alt="Imagem iPhone 15 Pro Max"
+                />
+
+                <div class="order-card-content">
+                  <div class="order-card-content-top">
+                    <p>iPhone 15 Pro Max</p>
+
+                    <span>25 Dec 2023</span>
+                  </div>
+
+                  <div class="order-card-content-bottom">
+                    <p>₦730,000.00 x 1</p>
+
+                    <span class="completed">Completed</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="order-card">
+                <img
+                  src="https://images.unsplash.com/photo-1700805732158-6f1169780ca7?q=80&w=1887&auto=format&fit=crop"
+                  alt="Imagem iPhone 15 Pro Max"
+                />
+
+                <div class="order-card-content">
+                  <div class="order-card-content-top">
+                    <p>iPhone 15 Pro Max</p>
+
+                    <span>25 Dec 2023</span>
+                  </div>
+
+                  <div class="order-card-content-bottom">
+                    <p>₦730,000.00 x 1</p>
+
+                    <span class="pending">Pending</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="order-card">
+                <img
+                  src="https://images.unsplash.com/photo-1700805732158-6f1169780ca7?q=80&w=1887&auto=format&fit=crop"
+                  alt="Imagem iPhone 15 Pro Max"
+                />
+
+                <div class="order-card-content">
+                  <div class="order-card-content-top">
+                    <p>iPhone 15 Pro Max</p>
+
+                    <span>25 Dec 2023</span>
+                  </div>
+
+                  <div class="order-card-content-bottom">
+                    <p>₦730,000.00 x 1</p>
+
+                    <span class="completed">Completed</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="order-card">
+                <img
+                  src="https://images.unsplash.com/photo-1700805732158-6f1169780ca7?q=80&w=1887&auto=format&fit=crop"
+                  alt="Imagem iPhone 15 Pro Max"
+                />
+
+                <div class="order-card-content">
+                  <div class="order-card-content-top">
+                    <p>iPhone 15 Pro Max</p>
+
+                    <span>25 Dec 2023</span>
+                  </div>
+
+                  <div class="order-card-content-bottom">
+                    <p>₦730,000.00 x 1</p>
+
+                    <span class="pending">Pending</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="order-card">
+                <img
+                  src="https://images.unsplash.com/photo-1700805732158-6f1169780ca7?q=80&w=1887&auto=format&fit=crop"
+                  alt="Imagem iPhone 15 Pro Max"
+                />
+
+                <div class="order-card-content">
+                  <div class="order-card-content-top">
+                    <p>iPhone 15 Pro Max</p>
+
+                    <span>25 Dec 2023</span>
+                  </div>
+
+                  <div class="order-card-content-bottom">
+                    <p>₦730,000.00 x 1</p>
+
+                    <span class="completed">Completed</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="order-card">
+                <img
+                  src="https://images.unsplash.com/photo-1700805732158-6f1169780ca7?q=80&w=1887&auto=format&fit=crop"
+                  alt="Imagem iPhone 15 Pro Max"
+                />
+
+                <div class="order-card-content">
+                  <div class="order-card-content-top">
+                    <p>iPhone 15 Pro Max</p>
+
+                    <span>25 Dec 2023</span>
+                  </div>
+
+                  <div class="order-card-content-bottom">
+                    <p>₦730,000.00 x 1</p>
+
+                    <span class="pending">Pending</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="order-card">
+                <img
+                  src="https://images.unsplash.com/photo-1700805732158-6f1169780ca7?q=80&w=1887&auto=format&fit=crop"
+                  alt="Imagem iPhone 15 Pro Max"
+                />
+
+                <div class="order-card-content">
+                  <div class="order-card-content-top">
+                    <p>iPhone 15 Pro Max</p>
+
+                    <span>25 Dec 2023</span>
+                  </div>
+
+                  <div class="order-card-content-bottom">
+                    <p>₦730,000.00 x 1</p>
+
+                    <span class="completed">Completed</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="order-card">
+                <img
+                  src="https://images.unsplash.com/photo-1700805732158-6f1169780ca7?q=80&w=1887&auto=format&fit=crop"
+                  alt="Imagem iPhone 15 Pro Max"
+                />
+
+                <div class="order-card-content">
+                  <div class="order-card-content-top">
+                    <p>iPhone 15 Pro Max</p>
+
+                    <span>25 Dec 2023</span>
+                  </div>
+
+                  <div class="order-card-content-bottom">
+                    <p>₦730,000.00 x 1</p>
+
+                    <span class="completed">Completed</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="./dashboard.js"></script>
+</html>
